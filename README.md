@@ -117,7 +117,7 @@ The following shows the interface of different pages
 
 ![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/ed2ac7b8-8891-4dc7-a504-861dbf7d56df)
 
-## Contributers
+## Conclusion
 In this Project, PHP, the Apache Web server, and MySQL Database used to create a website.
 
 
