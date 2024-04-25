@@ -1,7 +1,7 @@
 # Online-Shop-Demo
 A website created using PHP and MySQL.
 
-### Installation and Setup Guide
+## Installation and Setup Guide
 Before you start, you need to install XAMPP first. XAMPP is a package that integrates Apache (web server), PHP (server-side language), Perl (programming language), and MariaDB (database), making it easy to quickly set up a website through XAMPP. Please follow the steps below in order.
 
 #### Step 1: Install XAMPP
@@ -68,9 +68,56 @@ As shown in the picture below, click “Admin” to manage the database (or type
 
 2. Then find the following paragraph
 
+   ＃ By opening the config.inc.php file of phpMyAdmin, you can see the default authentication mode is 'config', which is the least secure authentication mode. It is recommended to change it to 'cookie' or 'http'.
+
 ![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/061dd13d-f89a-4a8a-b720-3ca67403f198)
 
-＃ By opening the config.inc.php file of phpMyAdmin, you can see the default authentication mode is 'config', which is the least secure authentication mode. It is recommended to change it to 'cookie' or 'http'.
 
+3. After restarting, you can go to the MySQL control page, and upon entering, a login window should appear. The default username is 'root' and the password is left blank.
 
+   
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/d30b4117-4c8d-44b1-9733-87e2ddba52c5)
 
+   ##### The administrator account, root does not set a password. It is recommended to set a password to improve the security of the database.
+   
+   
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/8043230c-e78b-4079-bbdf-3baf924d8c0a)
+
+##### At this point, the basic setup is about complete.
+
+## Create Databases and Tables
+You can create a database and tables, as well as populate them with data based on my 'create_gem_table.php' and 'create_gem_data.php' files.
+
+## Different Page Display
+The following shows the interface of different pages
+
+1. Index.php
+   
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/9500ac5e-8594-4b53-9d52-5527b84e360c)
+
+2. login.php
+
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/b339f810-1212-428b-b1d6-a5ae821c7ca5)
+
+3. order.php
+   
+＃ Clicking on the corresponding product in Index.php will bring up the order page.
+
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/4c7b3964-9f39-49ec-98cf-1e924bc2cb11)
+
+5. allOrders.php
+   
+＃ Only logged in staff account can access this page.
+
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/f77454ce-9ece-4a0d-8575-76d168b2b4dc)
+
+5. about.php
+
+![image](https://github.com/ffu1332/Online-Shop-Demo/assets/116335226/ed2ac7b8-8891-4dc7-a504-861dbf7d56df)
+
+## Contributers
+In this Project, PHP, the Apache Web server, and MySQL Database used to create a website.
+
+<div align="right">
+    <b><a href="#">↥ back to top</a></b>
+</div>
