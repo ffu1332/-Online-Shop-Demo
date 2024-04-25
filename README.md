@@ -1,7 +1,7 @@
 # Online-Shop-Demo
 A website created using PHP and MySQL.
 
-<div align="right"><b></b></div>
+
 
 ## Installation and Setup Guide
 Before you start, you need to install XAMPP first. XAMPP is a package that integrates Apache (web server), PHP (server-side language), Perl (programming language), and MariaDB (database), making it easy to quickly set up a website through XAMPP. Please follow the steps below in order.
